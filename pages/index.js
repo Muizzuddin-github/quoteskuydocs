@@ -143,14 +143,14 @@ export default function Home({quotes,author}) {
       <section className='hari-ini p-2 mt-10 sm:px-48'>
         <section className='flex items-center mb-1'>
               <i className="fa-solid fa-link mr-1"></i>
-              <h2 className='font-bold text-lg'>Quote hari ini</h2>
+              <h2 className='font-bold text-lg sm:text-2xl'>Quote hari ini</h2>
         </section>
         <hr className='border border-black bg-black' />
-        <p className='mt-4'>kami juga menyediakan quote yang dapat berubah sehari sekali, untuk cara aksesnya sebagai berikut</p>
-        <section className='url mt-5 p-2 flex justify-between rounded-sm bg-abu-abu text-sm'>
+        <p className='mt-4 sm:text-lg'>kami juga menyediakan quote yang dapat berubah sehari sekali, untuk cara aksesnya sebagai berikut</p>
+        <section className='url mt-5 p-2 flex justify-between rounded-sm bg-abu-abu text-sm sm:text-lg'>
           <p>/api/quotes/today</p>
         </section>
-        <p className='mt-3'>anda akan memperoleh quote hari ini, dimana quote hari ini akan melakukan reset quote setiap hari secara otomatis pada saat melakukan request</p>
+        <p className='mt-3 sm:text-lg'>anda akan memperoleh quote hari ini, dimana quote hari ini akan melakukan reset quote setiap hari secara otomatis pada saat melakukan request</p>
       </section>
     </main>
     <Footer />
