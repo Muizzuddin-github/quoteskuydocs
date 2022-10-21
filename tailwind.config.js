@@ -11,7 +11,8 @@ module.exports = {
         "abu" : "#aeaeae"
       },
       animation : {
-        'rotate' : "putar 1.5s linear infinite"
+        'rotate' : "putar 1.5s linear infinite",
+        "muncul" : "tampil 1.5s linear forwards"
       },
       keyframes : {
         "putar" : {
@@ -20,6 +21,14 @@ module.exports = {
           },
           '100%' : {
             transform : "rotate(360deg)"
+          }
+        },
+        "tampil" : {
+          '0%' : {
+            opacity : "0"
+          },
+          '100%' : {
+            opacity : "1"
           }
         }
       }

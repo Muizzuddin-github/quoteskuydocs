@@ -116,7 +116,7 @@ const ApiKey = () => {
         <Check />
         <section className='layar-hitam-api hidden' onClick={tutupCheck}></section>
         
-        <form className="mt-10 border py-5 w-[22rem] sm:w-[30rem] h-96 flex flex-col justify-around bg-white text-black px-5 rounded-md m-auto md:h-[26rem] sm:px-10" onSubmit={generateAPI}>
+        <form className="animate-muncul mt-10 border py-5 w-[22rem] sm:w-[30rem] h-96 flex flex-col justify-around bg-white text-black px-5 rounded-md m-auto md:h-[26rem] sm:px-10 transition-all" onSubmit={generateAPI}>
             <h2 className="text-center font-bold mb-5 sm:text-lg md:text-xl lg:text-2xl">Silahkan buat apikey anda</h2>
             <section className=" flex justify-between items-center flex-wrap">
                 <label htmlFor="nama" className="md:text-lg">Nama</label>
