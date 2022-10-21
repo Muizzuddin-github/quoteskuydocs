@@ -131,7 +131,7 @@ export default function Home({quotes,author}) {
         <ul className='mt-5 list-disc ml-4 sm:text-lg'>
         <li>Pendidikan</li>
         <li>Motivasi</li>
-        <li>novel</li>
+        <li>Novel</li>
         <li>Islam</li>
         </ul>
         <section className='url mt-5 p-2 flex justify-between rounded-sm bg-abu-abu text-sm sm:text-lg'>
