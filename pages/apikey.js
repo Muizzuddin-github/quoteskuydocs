@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Navbar from "../components/Navbar";
-import Check from "../components/check";
+import Check from "../components/Check";
 import Particle from "../components/Particle";
 import Link from "next/link";
 import { useState } from "react";
