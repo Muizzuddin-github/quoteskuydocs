@@ -135,7 +135,7 @@ export default function Home({quotes,author}) {
         <li>Islam</li>
         </ul>
         <section className='url mt-5 p-2 flex justify-between rounded-sm bg-abu-abu text-sm sm:text-lg'>
-          <p>/api/quotes?categori=pendidikan</p>
+          <p>/api/quotes?category=pendidikan</p>
         </section>
         <p className='mt-4 sm:text-lg'>anda dapat menambahkan kategori yang anda piilh pada bagian query string diurlnya dan resposenya kategori yang acak</p>
       </section>
