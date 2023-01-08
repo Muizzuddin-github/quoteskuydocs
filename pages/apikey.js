@@ -107,7 +107,7 @@ const ApiKey = () => {
     </Head>
     <Navbar />
     <Particle />
-    <main className="py-20 px-5 sm:px-20 lg:px-60 absolute text-white top-16 left-0 right-0 h-full">
+    <main className="py-3 px-5 sm:px-20 lg:px-60 absolute text-white top-16 left-0 right-0 h-[35rem]">
         <section className='flex items-center mb-1'>
           <i className="fa-solid fa-link mr-1"></i>
           <h1 className='font-bold text-lg sm:text-2xl lg:text-3xl'>API KEY</h1>
